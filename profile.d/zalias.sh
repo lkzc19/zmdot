@@ -11,9 +11,12 @@ for i in ~/profile.d/alias.d/*.sh ; do
     fi
 done
 
+# 该文件所在目录
+current_dir=$HOME/profile.d
+
 # 比较通用的别名
 
-alias se='source /Users/lkzc19/.zshrc --color=auto'  # 刷新环境变量
+alias se='source ~/.zshrc'  # 刷新环境变量
 
 alias sl='ls'
 alias ll='ls -l --color=auto'
@@ -34,3 +37,10 @@ alias pg='ps -ef | grep --color=auto'
 alias hosts='cat /etc/hosts'
 alias vhosts='sudo vim /etc/hosts'
 
+# custom
+alias zalias='cat $current_dir/zalias.sh'
+alias valias='vim $current_dir/zalias.sh'
+alias omz='cat $current_dir/oh_my_zsh.sh'
+alias vomz='vim $current_dir/oh_my_zsh.sh'
+alias zenv='cat $current_dir/zenv.sh'
+alias venv='vim $current_dir/zenv.sh'

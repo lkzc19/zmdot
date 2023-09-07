@@ -27,3 +27,15 @@ export PATH=$PATH:$MYSQL_HOME/bin
 export LDFLAGS="-L/opt/homebrew/opt/mysql@5.7/lib"
 export CPPFLAGS="-I/opt/homebrew/opt/mysql@5.7/include"
 
+# MongoDB
+export MONGODB_HOME=$HOME/Applications/mongodb-5.0.19
+export PATH=$PATH:$MONGODB_HOME/bin
+
+# Protoc
+export PROTOC_HOME=$HOME/Applications/protoc-23.4
+export PATH=$PATH:$PROTOC_HOME/bin
+
+
+
+
+

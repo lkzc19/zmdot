@@ -8,6 +8,7 @@ source $ZSH/oh-my-zsh.sh
 plugins=(
     z
     zsh-autosuggestions
+    git-open
 )
 
 # alias zshconfig="mate ~/.zshrc"
