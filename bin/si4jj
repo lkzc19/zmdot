@@ -1,0 +1,8 @@
+#!/bin/bash
+
+python3 ~/bin/lib/si4jj.py \
+--cookie \
+"xxx" \
+--receiver \
+"lkzc19@foxmail.com"
+
