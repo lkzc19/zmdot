@@ -1,5 +1,6 @@
 # Custom
-export PATH=$PATH:$HOME/bin
+export ZBIN_HOME="$HOME/zbin"
+export PATH=$PATH:$ZBIN_HOME
 
 # JAVA
 JAVA_HOME_8="/Library/Java/JavaVirtualMachines/jdk1.8.0_341.jdk/Contents/Home"

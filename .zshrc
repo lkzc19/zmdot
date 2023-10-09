@@ -8,3 +8,4 @@ for i in ~/profile.d/*.sh ; do
         fi
     fi
 done
+
