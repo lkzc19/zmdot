@@ -35,8 +35,3 @@ export PATH=$PATH:$MONGODB_HOME/bin
 # Protoc
 export PROTOC_HOME=$HOME/Applications/protoc-23.4
 export PATH=$PATH:$PROTOC_HOME/bin
-
-
-
-
-

@@ -9,3 +9,9 @@ for i in ~/profile.d/*.sh ; do
     fi
 done
 
+# 首次登录刷新
+if [[ -z "$ZSH_LOADED" ]]; then
+    export ZSH_LOADED="true"
+    source ~/.zshrc
+fi
+
