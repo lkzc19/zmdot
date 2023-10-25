@@ -27,9 +27,9 @@ alias chmox='chmod -x'
 alias hosts='cat /etc/hosts'
 alias vhosts='sudo vim /etc/hosts'
 
-# vscode
+# app
 alias code='/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code'
-alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
+alias text="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 
 # custom
 alias zalias='cat $current_dir/zalias.sh'

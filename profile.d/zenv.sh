@@ -35,3 +35,11 @@ export PATH=$PATH:$MONGODB_HOME/bin
 # Protoc
 export PROTOC_HOME=$HOME/Applications/protoc-23.4
 export PATH=$PATH:$PROTOC_HOME/bin
+
+# nvm
+export NVM_HOME="$HOME/Applications/nvm-0.39.5"
+[ -s "$NVM_HOME/nvm.sh" ] && \. "$NVM_HOME/nvm.sh"
+[ -s "$NVM_HOME/bash_completion" ] && \. "$NVM_HOME/bash_completion"
+export NVM_NODEJS_ORG_MIRROR=https://npm.taobao.org/mirrors/node/
+
+
